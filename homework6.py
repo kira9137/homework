@@ -5,8 +5,9 @@ print("Последний элемент:", my_list[-1])
 print("Элементы с третьего по пятый:", my_list[2:5])
 my_list[2] = 'груша'
 print("Измененный список фруктов:", my_list)
+
 my_dict = {'apple': 'яблоко', 'banana': 'банан', 'kiwi': 'киви'}
 print("Список фруктов с переводом:", my_dict)
 print("Перевод слова 'banana':", my_dict['banana'])
-my_dict['kiwi'] = 'арбуз'
+my_dict['kiwi'] = 'арбуз' # Изменение значения ключа
 print("Измененный список фруктов:", my_dict)
