@@ -6,3 +6,4 @@ def single_root_words(root_word, *other_words):
   return same_words
 
 print(single_root_words('able', 'Disablement', 'capability', 'enable', 'disabled', 'table'))
+print(single_root_words('Disablement', 'able', 'capability', 'enable', 'disabled', 'table'))
