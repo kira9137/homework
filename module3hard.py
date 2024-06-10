@@ -13,8 +13,8 @@ def calculate_structure_sum(data_structure):
               sum_elements(value)
       #обрабатываем каждое значение list, tuple, set
       elif isinstance(element, (list, tuple, set)):
-          for item in element:
-              sum_elements(item)
+          for i in element:
+              sum_elements(i)
       elif isinstance(element, str):
           total_sum += len(element)
       elif isinstance(element, (int, float)):
