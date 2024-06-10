@@ -32,6 +32,5 @@ data_structure = [
   ((), [{(2, 'Urban', ('Urban2', 35))}])
 ]
 
-# Результат вызова функции
 result = calculate_structure_sum(data_structure)
 print(result)
