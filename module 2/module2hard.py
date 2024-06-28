@@ -7,4 +7,4 @@ def find_pairs(target):
     return pairs
 
 for target in range(3, 21):
-    print(f'Число {target} - {find_pairs(target)}')
+    print(f'Число {target} - {find_pairs(target)}')    
