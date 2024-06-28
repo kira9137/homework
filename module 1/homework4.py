@@ -1,3 +1,4 @@
+module 1/
 my_string = input("Введи текст: ")
 print("Длина текста:", len(my_string))
 print("Текст в верхнем регистре:", my_string.upper())
