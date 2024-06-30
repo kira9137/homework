@@ -16,9 +16,7 @@ class House:
   def __str__(self):
       return f"Название: {self.name}, кол-во этажей: {self.number_of_floors}"
 
-# Создание объекта класса House
 my_house = House('ЖК Эльбрус', 30)
 
-# Использование специальных методов
-print(len(my_house))  # Выведет количество этажей дома
-print(my_house)  # Выведет строку с информацией о доме
+print(len(my_house))
+print(my_house)
