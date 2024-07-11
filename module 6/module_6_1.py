@@ -12,10 +12,10 @@ class Plant:
 class Mammal(Animal):
   def eat(self, food):
       if food.edible:
-          print(f"{self.name} съел {food.name}")
+          print(f"{self.name} живой {food.name}")
           self.fed = True
       else:
-          print(f"{self.name} не стал есть {food.name}")
+          print(f"{self.name} накормленный {food.name}")
           self.alive = False
 
 class Predator(Animal):
