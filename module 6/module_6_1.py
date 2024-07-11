@@ -14,8 +14,6 @@ class Animal:
             self.__class__.alive = False
 
 class Plant:
-    edible = False
-
     def __init__(self, name):
         self.name = name
 
@@ -26,7 +24,7 @@ class Predator(Animal):
     pass
 
 class Flower(Plant):
-    pass
+    edible = False
 
 class Fruit(Plant):
     edible = True
