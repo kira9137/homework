@@ -16,12 +16,13 @@ class Eagle:
 
 class Pegasus(Horse, Eagle):
     def __init__(self):
-        Horse.__init__(self)
-        Eagle.__init__(self)
+        super(Pegasus, self).__init__()
+        super(Horse, self).__init__()
+        super(Eagle, self).__init__()
 
     def move(self, dx, dy):
-        super().run(dx)
-        super().fly(dy)
+        self.run(dx)
+        self.fly(dy)
 
     def get_pos(self):
         return (self.x_distance, self.y_distance)
@@ -29,8 +30,7 @@ class Pegasus(Horse, Eagle):
     def voice(self):
         print(self.sound)
 
-
-#создание объекта
+# создание объекта
 p1 = Pegasus()
 
 print(p1.get_pos())
